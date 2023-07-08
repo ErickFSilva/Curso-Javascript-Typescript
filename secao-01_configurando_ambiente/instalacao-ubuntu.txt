@@ -1,0 +1,53 @@
+# Atualizando pacotes
+sudo apt update -y
+
+# NodeJS
+# REMOVE O NODE ANTERIOR (se existir)
+sudo apt purge --auto-remove nodejs -y
+sudo rm /etc/apt/sources.list.d/nodesource.list*
+
+# INSTALA O CURL
+sudo apt install curl -y
+
+<<<<<<< HEAD
+# BAIXA E INSTALA O NODE 12
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
+sudo apt install nodejs -y
+
+# VSCode
+sudo snap install code --classic
+=======
+# BAIXA E INSTALA O NODE 14
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+sudo apt install nodejs -y
+
+# VSCode
+sudo apt-get install snapd snapd-xdg-open
+sudo snap install --classic vscode
+
+sudo snap refresh vscode (Atualiza o snap do programa)
+sudo snap remove vscode (Para desinstalar o programa)
+
+ou
+
+uname -m
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install code
+
+sudo apt-get remove code (Para desinstalar o programa)
+>>>>>>> b3d7f921d01f1d09298a67dfab32c6228db55cec
+
+# Google Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+<<<<<<< HEAD
+sudo rm google-chrome-stable_current_amd64.deb
+=======
+
+sudo rm google-chrome-stable_current_amd64.deb
+
+# Git
+sudo apt-get install git
+>>>>>>> b3d7f921d01f1d09298a67dfab32c6228db55cec

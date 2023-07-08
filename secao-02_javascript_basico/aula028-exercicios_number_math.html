@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Exercícios</title>
+</head>
+<body>
+
+    <section>
+        <header>
+            <h1>Seu número é <span class="numeroDigitado"></span></h1>
+        </header>
+
+        <p>Raiz quadrada: <span class="raiz_quadrada"></span></p>
+        <p><span class="numero"></span> é inteiro: <span class="tipo_bool"></span></p>
+        <p>É NaN: <span class="tipo_nan"></span></p>
+        <p>Arredondando para baixo: <span class="arred_baixo"></span></p>
+        <p>Arredondando para cima: <span class="arred_cima"></span></p>
+        <p>Com duas casas decimais: <span class="casas_decimais"></span></p>
+    </section>
+
+    <script>
+
+        let numeroDigitado = Number(prompt('Digite um número'));
+        
+        let numero = numeroDigitado;
+        let raiz_quadrada = Math.sqrt(numeroDigitado);
+        let tipo_bool = Number.isInteger(numeroDigitado);
+        let tipo_nan = Number.isNaN(numeroDigitado);
+        let arred_baixo = Math.floor(numeroDigitado);
+        let arred_cima = Math.ceil(numeroDigitado);
+        let casas_decimais = Number(numeroDigitado.toFixed(2));
+
+        document.querySelector('.numeroDigitado').innerHTML = numeroDigitado;
+        document.querySelector('.numero').innerHTML = numero;
+        document.querySelector('.raiz_quadrada').innerHTML = raiz_quadrada;
+        document.querySelector('.tipo_bool').innerHTML = tipo_bool;
+        document.querySelector('.tipo_nan').innerHTML = tipo_nan;
+        document.querySelector('.arred_baixo').innerHTML = arred_baixo;
+        document.querySelector('.arred_cima').innerHTML = arred_cima;
+        document.querySelector('.casas_decimais').innerHTML = casas_decimais;
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula021 - Exercício</title>
+</head>
+<body>
+
+    <script>
+
+        let varA = 'A';
+        let varB = 'B';
+        let varC = 'C';
+
+        console.log(`varA: ${varA}, varB: ${varB}, varC: ${varC}`);
+
+
+        let aux = varA
+        varA = varB
+        varB = varC
+        varC = aux
+
+        console.log(`varA: ${varA}, varB: ${varB}, varC: ${varC}`);
+
+        
+        [varA, varB, varC] = [varB, varC, varA]
+
+        console.log(`varA: ${varA}, varB: ${varB}, varC: ${varC}`);
+
+    </script>
+    
+</body>
+</html>

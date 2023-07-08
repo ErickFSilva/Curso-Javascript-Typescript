@@ -1,0 +1,96 @@
+- E-mail: erick_ferreira@outlook.com
+- Senha: f3rr31r0G1t
+
+
+1. ssh-keygen -t ed25519 -C erick_ferreira@outlook.com
+
+- Chaves ssh PC JF (com Windows):
+	
+	Your identification has been saved in /c/Users/erick.silva/.ssh/id_ed25519
+		
+	Your public key has been saved in /c/Users/erick.silva/.ssh/id_ed25519.pub
+		ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ5BnnvhBjFLoYnlzIrPQpZiYAg2+6qwW1ADBnQRmVG/ erick_ferreira@outlook.com
+
+- Chaves ssh PC casa (com Windows):
+	
+	Your identification has been saved in /c/Users/Erick/.ssh/id_ed25519
+	
+	Your public key has been saved in /c/Users/Erick/.ssh/id_ed25519.pub
+		ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE6gYzvVaxhrkiE51mtIcyY+crmmpmNpbdTT2ShVdf2w erick_ferreira@outlook.com
+
+
+2. eval $(ssh-agent -s)
+
+
+3. ssh-add (nome da chave privada)
+
+
+4. Configurações iniciais no Git:
+
+	git config --global user.email erick_ferreira@outlook.com
+	git config --global user.name ErickFSilva
+
+
+5. Para iniciar o repositório do Git:
+	
+	git init
+
+
+6. Para exemplo, criar um arquivo
+	
+	strogonoff.md
+
+
+7. Para verificar o status dos arquivos:
+
+	git status
+
+
+8. Para disponibilizar os conteúdos para versionamento:
+	
+	git add *
+
+
+9. Para criar os commits:
+	
+	git commit -m (Texto para identificação do commit)
+
+
+10. Para listar todas as configurações do Git:
+
+	git config --list
+
+
+11. Para desconfigurar o usuário e o e-mail do Git:
+
+	git config --global --unset user.email
+	git config --global --unset user.name
+
+
+12. Para apontar do repositório local para o repositório remoto:
+
+	git remote add origin (link do repositório no GitHub)
+
+
+13. Para listar os repositórios remotos:
+
+	git remote -v
+
+
+14. Para subir os arquivos do repositório local para o repositório no GitHub:
+
+	git push origin main (solicitará o login do GitHub)
+
+
+15. Para atualizar o conteúdo do repositório local com o GitHub:
+
+	git pull origin main (--allow-unrelated-histories)
+	
+	- Se retornar o erro: "error: cannot open .git/FETCH_HEAD: Permission denied"
+		
+		chown -R $USER: .
+
+
+16. Para clonar algum repositório do GitHub para o Git:
+
+	git clone (link do GitHub)
