@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background-color: tomato;
+}
+
+a:link {
+    color: darkorange;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+a:active {
+    text-decoration: none;
+    color: #fff;
+    background-color: darkslateblue;
+}
+
+.pai .lista li:last-child {
+    color: #f8f8f8;
+    background-color: darkslateblue;
+}
+
+input:required {
+    background-color: cornflowerblue;
+}
+
+input:checked ~ p {
+    color:#f8f8f8;
+    background-color: darkgoldenrod;
+}
+
+p:not(.meio) {
+    color: darkviolet;
+}
+
