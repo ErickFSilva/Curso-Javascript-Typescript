@@ -7,16 +7,3 @@
     background-color: #f8f8f8;
 }
 
-.pai h1~p {
-    color: #a33962;
-}
-
-[meu-atributo] {
-    color: #00746e;
-    background-color: rgb(249, 255, 167);
-}
-
-[checked] {
-    width: 30px;
-    height: 30px;
-}

@@ -32,3 +32,16 @@ a:active {
     color: #fff;
     background-color: darkslateblue;
 }
+
+input:checked + span {
+    background-color: burlywood;
+}
+
+.pai .lista li:last-child {
+    color: #f8f8f8;
+    background-color: darkslateblue;
+}
+
+input:required {
+    background-color: cornflowerblue;
+}
