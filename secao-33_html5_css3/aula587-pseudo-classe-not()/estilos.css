@@ -40,12 +40,12 @@ input:required {
     background-color: cornflowerblue;
 }
 
-input:checked ~ p {
+input:checked~p:not(.meio){
     color:#f8f8f8;
-    background-color: darkgoldenrod;
+    background-color: #9400d3;
 }
 
 p:not(.meio) {
-    color: darkviolet;
+    color: #9400d3;
 }
 
