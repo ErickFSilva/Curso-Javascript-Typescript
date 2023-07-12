@@ -14,10 +14,14 @@ ul li::after {
 }
 
 p.parag-1::first-letter {
-    margin: 0 20px 0 0;
+    margin-right: 25px;
+    padding: 0px 40px 8px;
     float: left;
+    display: block;
+    border-radius: 5px;
     font-size: 80px;
-    display: inline-block;
+    color: #f8f8f8;
+    background-color: cadetblue;
 }
 
 p.parag-2::first-line {
