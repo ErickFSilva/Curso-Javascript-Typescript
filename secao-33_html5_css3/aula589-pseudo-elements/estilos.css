@@ -17,7 +17,7 @@ p.parag-1::first-letter {
     margin: 0 20px 0 0;
     float: left;
     font-size: 80px;
-    display: inline-block;
+    display: block;
 }
 
 p.parag-2::first-line {
