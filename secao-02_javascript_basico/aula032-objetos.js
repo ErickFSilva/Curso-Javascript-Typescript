@@ -37,7 +37,7 @@ console.log();
 
 
 // Criando objetos com funções: factory function
-function criaPessoa(nome, sobrenome, idade) {
+function criaFamilia(nome, sobrenome, idade) {
 
     return {
 
@@ -47,9 +47,29 @@ function criaPessoa(nome, sobrenome, idade) {
     };
 }
 
-const pessoa3 = criaPessoa('Erick', 'F. da Silva', 36);
+const familia1 = criaFamilia('Erick', 'F. da Silva', 36);
+const familia2 = criaFamilia('Raquezia', 'de Souza Almeida F.', 36);
+const familia3 = criaFamilia('Gabriel', 'de Souza Alemida F.', 12);
+const familia4 = criaFamilia('Gabriely', 'de Souza Almeida F.', 8);
 
-console.log(pessoa3);
-console.log(pessoa3.nome);
-console.log(pessoa3.sobrenome);
+console.log(familia1);
+console.log(familia2);
+console.log(familia3);
+console.log(familia4);
+console.log();
+
+
+// Funções dentro de objetos são chamados de métodos
+const pessoa3 = {
+
+    nome: 'Erick',
+    sobrenome: 'F. da Silva',
+    idade: 36,
+    fala() { // Função ou método
+
+        console.log('Olá mundo!');
+    }
+}
+
+pessoa3.fala();
 console.log();
