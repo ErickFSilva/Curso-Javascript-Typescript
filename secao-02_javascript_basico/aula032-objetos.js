@@ -67,9 +67,17 @@ const pessoa3 = {
     idade: 36,
     fala() { // Função ou método
 
-        console.log('Olá mundo!');
+        // console.log(`${nome} ${sobrenome} está falando oi...!`); // Sem o 'this.' retornaria um erro
+        console.log(`A minha idade atual é ${this.idade}`);
+    },
+
+    incrementaIdade() {
+
+        this.idade++;
     }
 }
 
+pessoa3.fala();
+pessoa3.incrementaIdade();
 pessoa3.fala();
 console.log();
