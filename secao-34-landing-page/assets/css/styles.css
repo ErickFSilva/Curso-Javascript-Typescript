@@ -82,3 +82,8 @@ h6 {
 .section {
     min-height: 100vh;
 }
+
+.menu {
+    position: fixed;
+    background-color: var(--white-color);
+}
