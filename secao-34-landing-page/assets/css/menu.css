@@ -10,6 +10,7 @@
     width: 100%;
     border-bottom: 0.1rem solid var(--light-gray-color); /* 1px */
     /* background-color: var(--white-color); */
+    z-index: 1;
 }
 
 .menu-content {
