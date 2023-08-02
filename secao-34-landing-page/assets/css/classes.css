@@ -9,7 +9,10 @@
     background-position: center;
 }
 
-.white-bg { background: var(--white-color); }
+.white-bg {
+    color: var(--primary-color);
+    background: var(--white-color);
+}
 
 .blue-bg { background-color: var(--primary-color); }
 
