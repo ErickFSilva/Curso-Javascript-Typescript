@@ -20,3 +20,12 @@ console.log((num1 > num2) || (num2 > num1));
 
 // ! -> NÃO:
 console.log(!(num1 > num2) && (num2 > num1));
+console.log();
+
+
+// Exemplo de login
+const usuario = 'Luiz';
+const senha = '123456';
+
+const vaiLogar = usuario === 'Luiz' && senha === '12345'; // Retorna um boolean
+console.log(!vaiLogar); // Inverte o valor real
