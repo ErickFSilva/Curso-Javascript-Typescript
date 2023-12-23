@@ -52,6 +52,11 @@
 
 
 9. Para criar os commits:
+
+	9.1. Para listar os commits realizados:
+	
+		git log --oneline
+		
 	
 	git commit -m (Texto para identificação do commit)
 
@@ -94,3 +99,13 @@
 16. Para clonar algum repositório do GitHub para o Git:
 
 	git clone (link do GitHub)
+
+
+17. Para alterar o nome da branch principal pela linha de comando:
+	
+	git config --global init.defaultBranch main
+
+**********************************************************************
+
+- Repositórios:
+
