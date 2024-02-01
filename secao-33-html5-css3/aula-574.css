@@ -1,0 +1,19 @@
+section {
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.section-one {
+    background-color: darkcyan;
+}
+
+.section-two {
+    background-color: darkslateblue;
+}
+
+.section-three {
+    background-color: darkseagreen;
+}

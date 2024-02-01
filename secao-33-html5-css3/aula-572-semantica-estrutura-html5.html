@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 e CSS3</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <style>
+        #cabecalho-principal .banner-topo {
+            width: 100%;
+            height: 200px;
+            background: url(../imagens/roupas01.jpg) no-repeat right center;
+            background-size: cover;
+        }
+
+        #apoio { width: 100%;}
+
+        .apoio-caixa {
+            width: 130px;
+            float: right;
+            /* border: 1px solid brown; */
+        }
+
+        .apoio-caixa ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .apoio-caixa ul li {
+            text-align: center;
+        }
+
+        .apoio-caixa img {
+            width: 40px;
+        }
+
+        section header .titulo-sec-femi-icone {
+            display: inline;
+            width: 7px;
+            height: 20px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Estrutura -->
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <header id="cabecalho-principal">
+                    <h1>Moda Unisex</h1>
+                    <div class="banner-topo"></div>
+                    <nav>
+                        <a href="#">Home</a>
+                    </nav>
+                </header>
+
+                <!-- Apoio -->
+                <aside id="apoio">
+                    <nav class="apoio-caixa">
+                        <ul>
+                            <li><a href="#"><img src="../imagens/perfil.png" alt="perfil">Destaque 1</a></li>
+                            <li><a href="#"><img src="../imagens/perfil.png" alt="perfil">Destaque 2</a></li>
+                            <li><a href="#"><img src="../imagens/perfil.png" alt="perfil">Destaque 3</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <!-- ^Apoio -->
+
+                <!-- Seção: Roupas Femininas -->
+                <section>
+                    <header>
+                        <h2>Roupas Femininas</h2><span class="titulo-sec-femi-icone"></span>
+                    </header>
+
+                    <!-- Adulto -->
+                    <article>
+                        <header>
+                            <h3>Adulto</h3>
+                        </header>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit perspiciatis deleniti
+                            blanditiis sunt beatae, reiciendis harum, reprehenderit quasi quos minus praesentium quia
+                            tenetur dignissimos ipsam, eveniet commodi expedita id debitis!
+                        </p>
+                        <footer>P - M - G - GG</footer>
+                    </article>
+
+                    <!-- Infantil -->
+                    <article>
+                        <header>
+                            <h4>Infantil</h4>
+                        </header>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo in cum cumque molestiae qui, commodi ex impedit error ullam laudantium tempora distinctio maxime optio eligendi, temporibus tenetur, soluta doloribus consequatur.
+                        </p>
+                        <footer>P - M - G - GG</footer>
+                    </article>
+                </section>
+                <!-- ^Seção: Roupas Femininas -->
+
+                <!-- Seção: Roupas Masculinas -->
+                <section>
+                    <header>
+                        <h2>Roupas Masculinas <span></span></h2>
+                    </header>
+
+                    <!-- Adulto -->
+                    <article>
+                        <header>
+                            <h3>Adulto</h3>
+                        </header>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit perspiciatis deleniti
+                            blanditiis sunt beatae, reiciendis harum, reprehenderit quasi quos minus praesentium quia
+                            tenetur dignissimos ipsam, eveniet commodi expedita id debitis!
+                        </p>
+                        <footer>P - M - G - GG</footer>
+                    </article>
+
+                    <!-- Infantil -->
+                    <article>
+                        <header>
+                            <h4>Infantil</h4>
+                        </header>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo in cum cumque molestiae qui, commodi ex impedit error ullam laudantium tempora distinctio maxime optio eligendi, temporibus tenetur, soluta doloribus consequatur.
+                        </p>
+                        <footer>P - M - G - GG</footer>
+                    </article>
+                </section>
+                <!-- ^Seção: Roupas Masculinas -->
+
+                <!-- Rodapé -->
+                <footer>
+                    Todos os direitos reservados - email@dominio.com
+                </footer>
+                <!-- ^Rodapé -->
+
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
