@@ -2,8 +2,9 @@ section {
     padding: 20px;
     width: 300px;
     height: 150px;
+    line-height: 150px;
     color: aliceblue;
-    text-align: justify;
+    text-align: center;
 }
 
 .section-one {
@@ -11,9 +12,11 @@ section {
 }
 
 .section-two {
+    line-height: normal;
+    text-align: justify;
     background-color: darkslateblue;
 }
 
 .section-three {
-    background-color: darkseagreen;
+    background-color: darksalmon;
 }
