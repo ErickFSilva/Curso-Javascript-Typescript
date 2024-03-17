@@ -2,67 +2,126 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     list-style: none;
+    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-}
+img { width: 100%; }
+
+a { text-decoration: none; }
 
 body {
+    font-size: 1em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
 }
 
 
-/* ESTRUTURA */
-#conteudo-pagina {
-    margin: 0 auto;
-    width: 80%;
-    /* border: 1px solid #92a0ad; */
-}
-
-
-/* CABECALHO */
-#cabecalho-pagina .banner-cabecalho {
+/* BARRA TOPO */
+#barra-topo {
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 200px;
-    background: url(../../imagens/cabecalho.jpg) no-repeat bottom center;
-    background-size: cover;
+    color: #fafafa;
+    background-color: #483d8b;
 }
 
-/* MENU PRINCIPAL */
-#menu-principal ul {
-    padding: 5px 0;
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid #000; */
+#barra-topo #topo {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 800px;
 }
 
-#menu-principal ul a {
-    padding: 5px 10px;
-    color: cornsilk;
-    background-color: #695834;
+#barra-topo #topo h2 {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 
-/* MEDIA CONTROL */
-@media (max-width: 575px) {
-
-    #conteudo-pagina {
-        margin: 0 auto;
-        width: 100%;
-        border: 1px solid #92a0ad;
-    }
-
+/* NAVEGAÇÃO PRINCIPAL */
+#nav-princ {
+    position: fixed;
+    top: 134px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    border-top: 1px solid #fafafa;
+    border-bottom: 2px solid #fafafa;
+    background-color: #483d8b;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-
-    #conteudo-pagina {
-        margin: 0 auto;
-        width: 90%;
-        border: 1px solid #92a0ad;
-    }
-
+#nav-princ ul {
+    margin: 0 auto;
+    /* padding: 40px 0; */
+    width: 800px;
 }
+
+#nav-princ ul a {
+    float: left;
+    padding: 8px 16px;
+    color: #fafafa;
+    display: block;
+}
+
+#nav-princ ul a:hover {
+    background-image: linear-gradient(#483d8b, #322e52);
+}
+
+#home #nav-princ .home a,
+#sobre #nav-princ .sobre a,
+#estilistas #nav-princ .estilistas a,
+#contato #nav-princ .contato a {
+    background-image: linear-gradient(#483d8b, #322e52);
+}
+
+
+/* MAIN */
+main {
+    margin: 192px auto 0;
+    width: 800px;
+    /* border: 1px solid tomato; */
+}
+
+
+/* SECÃO FEMININA, SEÇLÃO MASCULINA e BASE APOIO */
+#sec-femi-masc, #base-apoio {
+    float: left;
+    border: 1px solid slategray;
+}
+
+#sec-femi-masc {
+    margin-right: 20px;
+    width: 600px;
+}
+
+#base-apoio {
+    width: 180px;
+}
+
+
+/* SEÇÃO FEMININA */
+
+
+/* SEÇÃO MASCULINA */
+
+
+/* APOIO */
+
+
+/* RODAPÉ */
+#barra-rodape {
+    margin-top: 20px;
+    width: 100%;
+    color: #fafafa;
+    background-color: #483d8b;
+}
+
+#barra-rodape #rodape {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 800px;
+}
+
+
+/* UTILITÁRIOS */
+.clear { clear: both; }
