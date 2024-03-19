@@ -5,40 +5,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 e CSS3</title>
-
     <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
 </head>
 
-<body>
+<body id="home">
 
-    <h1>Box model</h1>
+    <!-- Abre barra topo -->
+    <header id="barra-topo">
 
-    <section class="section-one">
-        <header>
+        <!-- TOPO -->
+        <section id="topo">
+            <h1>Loja de roupas</h1>
             <h2>
-                <img src="../../imagens/perfil.png" alt="perfil">
-                Box model 1
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h2>
-        </header>
+        </section>
 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sit corporis pariatur esse ab placeat consequatur, asperiores totam, aliquam veniam perspiciatis deleniti hic eos molestiae reprehenderit culpa incidunt explicabo nobis!
-        </p>
-    </section>
+    </header>
+    <!-- Fecha barra topo -->
 
-    <section class="section-two">
-        <header>
-            <h2>
-                <img src="../../imagens/perfil.png" alt="perfil">
-                Box model 2
-            </h2>
-        </header>
+    <!-- Abre navegação principal -->
+    <nav id="nav-princ">
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ad libero porro debitis quae! Architecto iure, eaque non voluptatem totam iusto. Ea quae temporibus ullam maxime sed eveniet voluptates ratione.
-        </p>
-    </section>
+        <!-- Ítens da navagação -->
+        <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="sobre"><a href="sobre.html">Sobre</a></li>
+            <li class="estilistas"><a href="estilistas.html">Estilistas</a></li>
+            <li class="contato"><a href="contato.html">Contato</a></li>
+        </ul>
+
+        <!-- Limpa flutuações -->
+        <div class="clear"></div>
+    </nav>
+    <!-- Fecha navegação principal -->
+
+    <main>
+
+        <div id="sec-femi-masc">
+            <!-- Abre seção feminina -->
+            <section id="sec-femi">
+                <header>
+                    <h2>Roupas femininas</h2>
+                </header>
+
+                <!-- Abre adulto -->
+                <article class="femi-adulto">
+                    <header>
+                        <img src="../../imagens/roupas01.jpg" alt="roupas01">
+                        <h3>Adulto</h3>
+                    </header>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ad veritatis. Voluptate
+                        eum
+                        ea non, fugiat ab quidem a blanditiis perferendis hic magni minus consequuntur similique totam
+                        numquam possimus dolor!
+                    </p>
+                </article>
+
+                <!-- Abre juvenil -->
+                <article class="femi-juvenil margin-hori-35">
+                    <header>
+                        <img src="../../imagens/roupas01.jpg" alt="roupas01">
+                        <h3>Juvenil</h3>
+                    </header>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ad veritatis. Voluptate
+                        eum
+                        ea non, fugiat ab quidem a blanditiis perferendis hic magni minus consequuntur similique totam
+                        numquam possimus dolor!
+                    </p>
+                </article>
+
+                <!-- Abre infantil -->
+                <article class="femi-infantil">
+                    <header>
+                        <img src="../../imagens/roupas01.jpg" alt="roupas01">
+                        <h3>Infantil</h3>
+                    </header>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ad veritatis. Voluptate
+                        eum
+                        ea non, fugiat ab quidem a blanditiis perferendis hic magni minus consequuntur similique totam
+                        numquam possimus dolor!
+                    </p>
+                </article>
+
+                <!-- Limpa o fluxo -->
+                <div class="clear"></div>
+
+            </section>
+            <!-- Fecha seção feminina -->
+
+            <!-- Abre seção masculina -->
+            <section id="sec-masc">
+                <header>
+                    <h2>Roupas masculinas</h2>
+                </header>
+
+                <!-- Abre adulto -->
+                <article class="masc-adulto">
+                    <header>
+                        <img src="../../imagens/roupas01.jpg" alt="roupas01">
+                        <h3>Adulto</h3>
+                    </header>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ad veritatis. Voluptate
+                        eum
+                        ea non, fugiat ab quidem a blanditiis perferendis hic magni minus consequuntur similique totam
+                        numquam possimus dolor!
+                    </p>
+                </article>
+
+                <!-- Abre juvenil -->
+                <article class="masc-juvenil margin-hori-35">
+                    <header>
+                        <img src="../../imagens/roupas01.jpg" alt="roupas01">
+                        <h3>Juvenil</h3>
+                    </header>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ad veritatis. Voluptate
+                        eum
+                        ea non, fugiat ab quidem a blanditiis perferendis hic magni minus consequuntur similique totam
+                        numquam possimus dolor!
+                    </p>
+                </article>
+
+                <!-- Abre infantil -->
+                <article class="masc-infantil">
+                    <header>
+                        <img src="../../imagens/roupas01.jpg" alt="roupas01">
+                        <h3>Infantil</h3>
+                    </header>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ad veritatis. Voluptate
+                        eum
+                        ea non, fugiat ab quidem a blanditiis perferendis hic magni minus consequuntur similique totam
+                        numquam possimus dolor!
+                    </p>
+                </article>
+
+                <!-- Limpa o fluxo -->
+                <div class="clear"></div>
+
+            </section>
+            <!-- Fecha seção masculina -->
+        </div>
+
+        <!-- Abre conteudo de apoio -->
+        <aside id="base-apoio">
+            <p>APOIO</p>
+        </aside>
+        <!-- Fecha conteudo de apoio -->
+
+        <!-- Limpa o fluxo -->
+        <div class="clear"></div>
+
+    </main>
+
+    <!-- Abre barra rodapé -->
+    <footer id="barra-rodape">
+
+        <!-- Rodapé -->
+        <section id="rodape">
+            <h1>Rodapé</h1>
+        </section>
+
+    </footer>
+    <!-- Fecha barra rodapé -->
 
 </body>
 

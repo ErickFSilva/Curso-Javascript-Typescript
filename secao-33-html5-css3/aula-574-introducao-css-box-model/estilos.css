@@ -1,34 +1,172 @@
-section {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid slateblue;
-}
-
-section img {
-    margin-right: 5px;
-    width: 30px;
-    border: 1px solid azure;
-    border-radius: 100%;
-}
-
-.section-one {
-    background-color: darkturquoise;
-}
-
-.section-two {
-    background-color: darksalmon;
-}
-
-h2 {
+/* GERAL */
+* {
     margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+img { width: 100%; }
+
+a { text-decoration: none; }
+
+body {
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
 }
 
 
-/* MEDIA QUERY */
-@media (min-width: 768px) {
-
-    section {
-        width: 600px;
-    }
-
+/* BARRA TOPO */
+#barra-topo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fafafa;
+    background-color: #483d8b;
 }
+
+#barra-topo #topo {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 900px;
+}
+
+#barra-topo #topo h2 {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+
+/* NAVEGAÇÃO PRINCIPAL */
+#nav-princ {
+    position: fixed;
+    top: 134px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    border-top: 1px solid #fafafa;
+    border-bottom: 2px solid #fafafa;
+    background-color: #483d8b;
+}
+
+#nav-princ ul {
+    margin: 0 auto;
+    /* padding: 40px 0; */
+    width: 900px;
+}
+
+#nav-princ ul a {
+    float: left;
+    padding: 8px 16px;
+    color: #fafafa;
+    display: block;
+}
+
+#nav-princ ul a:hover {
+    background-image: linear-gradient(#483d8b, #322e52);
+}
+
+#home #nav-princ .home a,
+#sobre #nav-princ .sobre a,
+#estilistas #nav-princ .estilistas a,
+#contato #nav-princ .contato a {
+    background-image: linear-gradient(#483d8b, #322e52);
+}
+
+
+/* MAIN */
+main {
+    margin: 192px auto 0;
+    width: 900px;
+    /* border: 1px solid tomato; */
+}
+
+
+/* SECÃO FEMININA, SEÇLÃO MASCULINA e BASE APOIO */
+#sec-femi-masc, #base-apoio {
+    float: left;
+    /* border: 1px solid slategray; */
+}
+
+#sec-femi-masc {
+    margin-right: 20px;
+    width: 700px;
+}
+
+#sec-femi-masc img {
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 5px 0px #322e52;
+    border: 1px solid #fafafa;
+}
+
+#sec-femi,
+#sec-masc {
+    margin-bottom: 60px;
+}
+
+#sec-femi header h2,
+#sec-masc header h2 {
+    margin-bottom: 20px;
+}
+
+#sec-femi .femi-adulto,
+#sec-femi .femi-juvenil,
+#sec-femi .femi-infantil,
+#sec-masc .masc-adulto,
+#sec-masc .masc-juvenil,
+#sec-masc .masc-infantil {
+    float: left;
+    width: 210px;
+}
+
+#sec-femi h3,
+#sec-masc h3 {
+    margin-bottom: 8px;
+}
+
+#sec-femi p,
+#sec-masc p {
+    text-align: justify;
+}
+
+#sec-femi h3, #sec-femi p,
+#sec-masc h3, #sec-masc p {
+    padding: 0 5px;
+}
+
+#base-apoio {
+    width: 180px;
+}
+
+
+/* SEÇÃO FEMININA */
+
+
+/* SEÇÃO MASCULINA */
+
+
+/* APOIO */
+#base-apoio {
+    border: 1px solid slategray;
+}
+
+
+/* RODAPÉ */
+#barra-rodape {
+    /* margin-top: 20px; */
+    width: 100%;
+    color: #fafafa;
+    background-color: #483d8b;
+}
+
+#barra-rodape #rodape {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 900px;
+}
+
+
+/* UTILITÁRIOS */
+.margin-hori-35 { margin: 0 35px;}
+.clear { clear: both; }
