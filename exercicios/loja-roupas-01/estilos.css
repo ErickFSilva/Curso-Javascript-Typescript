@@ -94,10 +94,40 @@ main {
     width: 700px;
 }
 
-#sec-femi-masc img {
+#sec-femi-masc .quadro-adulto,
+#sec-femi-masc .quadro-juvenil,
+#sec-femi-masc .quadro-infantil {
     margin-bottom: 8px;
+    height: 280px;
     box-shadow: 0px 0px 5px 0px #322e52;
     border: 1px solid #fafafa;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#sec-femi-masc #sec-femi .quadro-adulto {
+    background-image: url(../../imagens/roupas01.jpg);
+}
+
+#sec-femi-masc #sec-femi .quadro-juvenil {
+    background-image: url(../../imagens/roupas01.jpg);
+}
+
+#sec-femi-masc #sec-femi .quadro-infantil {
+    background-image: url(../../imagens/moda-infantil-feminina.webp);
+}
+
+#sec-femi-masc #sec-masc .quadro-adulto {
+    background-image: url(../../imagens/roupas01.jpg);
+}
+
+#sec-femi-masc #sec-masc .quadro-juvenil {
+    background-image: url(../../imagens/roupas01.jpg);
+}
+
+#sec-femi-masc #sec-masc .quadro-infantil {
+    background-image: url(../../imagens/moda-infantil-masculina.jpg);
 }
 
 #sec-femi,

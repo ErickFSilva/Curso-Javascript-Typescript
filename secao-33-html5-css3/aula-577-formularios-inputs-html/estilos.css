@@ -1,0 +1,16 @@
+body {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form fieldset, form label {
+    display: block;
+}
+
+form fieldset {
+    margin-top: 20px;
+}
+
+form div {
+    margin-top: 10px;
+}

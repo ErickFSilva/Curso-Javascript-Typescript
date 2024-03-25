@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 & CSS3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+
+    <main>
+
+        <section>
+            <h1>- Tipos de entrada HTML</h1>
+
+            <p>
+                Aqui estão os diferentes tipos de entrada que você pode usar em HTML:
+            </p>
+        </section>
+
+        <!-- Abre formulário -->
+        <form action="index.html" method="get">
+
+            <fieldset>
+                <legend>Entrada do tipo texto</legend>
+
+                <div>
+                    <label for="pnome">Primeiro nome</label>
+                    <input type="text" id="pnome" name="pnome">
+                </div>
+                <div>
+                    <label for="snome">Segundo nome</label>
+                    <input type="text" id="snome" name="snome">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Entrada do tipo senha</legend>
+
+                <div>
+                    <label for="pnome2">Primeiro nome</label>
+                    <input type="text" id="pnome2" name="pnome2">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Entrada do tipo enviar</legend>
+
+                <div>
+                    <label for="pnome3">Primeiro nome</label>
+                    <input type="text" id="pnome3" name="pnome3">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Entrada do tipo redefinição</legend>
+
+                <div>
+                    <label for="pnome4">Primeiro nome</label>
+                    <input type="text" id="pnome4" name="pnome4">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Entrada do tipo rádio</legend>
+
+                <div>
+                    <input type="radio" id="html" name="tipo-ling">
+                    <label for="html">HTML</label>
+                </div>
+            </fieldset>
+
+        </form>
+        <!-- Fecha formulário -->
+
+    </main>
+
+</body>
+
+</html>
