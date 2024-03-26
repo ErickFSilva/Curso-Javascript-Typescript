@@ -1,0 +1,10 @@
+body {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caixa {
+    width: 120px;
+    height: 120px;
+    background-color: brown;
+}
