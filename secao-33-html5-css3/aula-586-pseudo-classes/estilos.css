@@ -1,0 +1,84 @@
+/* Seletor geral */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Seletores de elementos */
+body {
+    padding: 10px;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+section>header {
+    /* border: 1px dotted brown; */
+    text-align: center;
+}
+
+section header img {
+    margin: 10px auto 0;
+    width: 150px;
+}
+
+.conteudo {
+    margin-top: 40px;
+    /* border: 1px dotted brown; */
+}
+
+.conteudo header {
+    margin-bottom: 20px;
+    /* border: 1px dotted brown; */
+}
+
+.conteudo ul {
+    margin-top: 10px;
+}
+
+.conteudo ul li {
+    padding: 6px;
+}
+
+.conteudo ul li:last-child {
+    color: #fafafa;
+    background-color: #5a88dd;
+}
+
+.conteudo ul input[type='radio']:checked {
+    accent-color: #511694;
+}
+
+.conteudo p {
+    margin: 20px 0;
+    text-align: justify;
+    /* border: 1px dotted brown; */
+}
+
+.conteudo img+p {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Seletores de ID */
+#main-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    #main-container {
+        margin: 0 auto;
+        width: 768px;
+    }
+
+}
