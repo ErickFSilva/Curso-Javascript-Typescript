@@ -1,6 +1,21 @@
-console.log('Erick Ferreira');
-console.log("Programador");
-console.log(`JS/TS`);
+// Método 'log()' que está dentro do objeto 'console'
+console.log();
 
-console.log('Ano: ' + 2024);
-console.log('Salário: R$ ' + 9840.50)
+// STRINGS
+console.log('Erick Ferreira');
+console.log("Erick Ferreira");
+console.log(`Erick Ferreira`); // Realiza o 'template string'
+
+
+// NUMÉRICOS
+console.log(1234);
+console.log(12.34);
+
+
+// BOOLEANOS
+console.log(true);
+
+
+// VALORES VARIÁDOS
+console.log('Erick Ferreira', 37, true);
+console.log('Erick Ferreira' + 37 + false); // O JS tenta concatenar os valores

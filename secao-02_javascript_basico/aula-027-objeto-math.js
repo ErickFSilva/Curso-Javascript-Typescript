@@ -20,7 +20,7 @@ console.log(`Arredonda para o mais próximo: ${Math.round(num1 + 0.1)}`);
 
 // - Encontrar um número em uma sequência numérica
 console.log(`Maior número: ${Math.max(1,2,3,4,5,-10,-50,1500,9,8,7,6)}`);
-console.log(`Maior número: ${Math.min(1,2,3,4,5,-10,-50,1500,9,8,7,6)}`);
+console.log(`Menor número: ${Math.min(1,2,3,4,5,-10,-50,1500,9,8,7,6)}`);
 
 // - Gerar número aleatório entre 0 e 1
 console.log(`Número aleatório: ${aleatorio}`);

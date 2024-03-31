@@ -1,4 +1,4 @@
-let num_str = 1;
+let num_str = 100;
 let num_NaN = num_str * 'Ola';
 let ieee1 = 0.7;
 let ieee2 = 0.1;
@@ -14,7 +14,7 @@ num_str = num_str.toString();
 console.log(`String: ${num_str}`);
 
 // Representação binária com .toString()
-console.log(`Binários: ${num1.toString()}`);
+console.log(`String: ${num1.toString()}`);
 console.log(`Binários: ${num1.toString(2)}`);
 
 // Arredondando um valor

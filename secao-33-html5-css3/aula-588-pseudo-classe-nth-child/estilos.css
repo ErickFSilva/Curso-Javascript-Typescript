@@ -1,7 +1,7 @@
 /* Seletor geral */
 * {
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -20,4 +20,41 @@ input[type='checkbox'] {
     accent-color: #5629a8;
 }
 
-/* Pseudo classe :nth-child() */
+ul li label {
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+
+/* Pseudo classe :nth-child() (Trabalha com grupo de irmãos) */
+
+/* ul li:nth-child(2) {
+    color: #fafafa;
+    background-color: rebeccapurple;
+} */
+
+/* ul li:nth-child(3n+5) { /* Apartir do 5º elemento será de 3 em 3
+    color: #fafafa;
+    background-color: rebeccapurple;
+} */
+
+ul li:nth-child(odd) { /* Ímpares */
+    color: #fafafa;
+    background-color: teal;
+}
+
+ul li:nth-child(even) { /* Pares */
+    color: #fafafa;
+    background-color: rebeccapurple;
+}
+
+ul li:nth-child(3n) { /* De 3 em 3 */
+    color: #fafafa;
+    background-color: darkgoldenrod;
+}
+
+input:checked + span {
+    color: #5629a8;
+    background-color: #fafafa;
+}

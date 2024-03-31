@@ -1,0 +1,47 @@
+/* Seletor geral */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Seletores de elementos */
+body {
+    padding: 10px;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+
+/* Pseudo elementos */
+/* ul li span::before {
+    content: '#';
+    margin-right: 10px;
+} */
+
+p::first-letter {
+    float: left;
+    margin-right: 8px;
+    padding: 0 20px 7px;
+    display: block;
+    font-weight: 500;
+    font-size: 70px;
+    background-color: antiquewhite;
+}
+
+p::selection {
+    color: #fafafa;
+    background-color: darkslategray;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: #cfcfcf;
+}

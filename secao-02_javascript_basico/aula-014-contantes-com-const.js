@@ -17,7 +17,7 @@ const nome = 'Erick';
 console.log(nome);
 
 // Constante do tipo number:
-const anoAtual = 2023;
+const anoAtual = 2024;
 console.log(anoAtual);
 
 // Verifica o tipo do dado recebido:

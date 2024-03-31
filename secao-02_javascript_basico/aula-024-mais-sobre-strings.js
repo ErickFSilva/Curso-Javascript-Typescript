@@ -40,7 +40,7 @@ console.log(outraString.replace(/r/g, '#')); // Substitue todos os resultados en
 console.log(outraString.slice(2));
 console.log(outraString.slice(2, 6)); // Posiçao inicial e a posiçao final (com uma posiçao a mais)
 console.log(outraString.slice(-5, outraString.length)); // Realiza a busca de trás para a frente
-console.log(outraString.substring(outraString.length - 5, outraString.length - 1)); // Realiza a mesma funçao do 'slice'
+console.log(outraString.substring(outraString.length - 5, outraString.length - 1)); // Realiza a mesma função do 'slice'
 
 
 // - length: conta a quantidade de caracteres do string

@@ -10,8 +10,9 @@
  * Crie variáveis, preferencialmente, com 'let';
  */
 
-let esposo = 'João';
-let esposa = 'Maria';
+let esposo; // Declarando a variável
+esposo = 'João'; // Inicializando a variável
+let esposa = 'Maria'; // Declarando e inicializando a variável
 let dataCasamento = '2012';
 let dataNasciEsposo = '1984';
 let dataNasciFilho = '2015';
