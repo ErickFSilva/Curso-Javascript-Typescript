@@ -2,11 +2,14 @@
 
 // - Variáveis
 let num1 = 9.49;
-let num2;
+let num2 = 10;
 let aleatorio = Math.random();
 
 // - Valor normal
 console.log(`Valor normal: ${num1}`);
+
+// Valor com casas decimais
+console.log(`Valor com casas decimais: ${num2.toFixed(2)}`);
 
 // - Arredondamento: para baixo
 console.log(`Arredonda para baixo: ${Math.floor(num1)}`);
