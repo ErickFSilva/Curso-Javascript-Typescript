@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
-html { font-size: 62.5%; } /* Equivale a 10px ou 1 rem neste modelo */
+html {
+    /* font-size: 62.5%; Equivale a 10px ou 1 rem neste modelo */
+    scroll-behavior: smooth;
+}
 
 body {
-    padding: 10px;
+    /* padding: 10px; */
     /* font-size: 16px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #fafafa;
@@ -17,24 +20,27 @@ body {
 
 /* Unidades de medidas absolutas */
 .pai {
-    /* font-size: 1cm; */
-    /* font-size: 1mm; */
-    /* font-size: 1in; */
-    font-size: 16px;
-    /* font-size: 1pt; */
-    /* font-size: 1pc; */
+    height: 100vh; /* 100% da altura da tela (viewport) */
+    overflow: hidden;
 }
 
 
 /* Unidades de medidas relativas */
 p {
-    /* font-size: 1em; */
-    /* font-size: 1ex; */
-    /* font-size: 1ch; */
-    font-size: 1.6rem; /* Equivale a 16px */
-    /* font-size: 1vw; */
-    /* font-size: 1vh; */
-    /* font-size: 1vmin; */
-    /* font-size: 1vmax; */
-    /* font-size: 1%; */
+    padding: 10px;
+    font-size: 1vh; /* 1% da altura da tela (viewport) */
+}
+
+
+/*  */
+.color-one {
+    background-color: yellowgreen;
+}
+
+.color-two {
+    background-color: turquoise;
+}
+
+.color-three {
+    background-color: violet;
 }
