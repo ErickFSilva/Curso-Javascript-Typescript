@@ -1,0 +1,35 @@
+/* Reset de contaúdo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; Equivale a 10px ou 1 rem neste modelo */
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 10px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+
+/*  */
+P {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 70px;
+    text-align: left;
+    text-decoration: overline underline;
+    text-indent: 50px;
+    text-shadow: 0px 0px 3px #29e7f5;
+    text-transform: uppercase;
+}

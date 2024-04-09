@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    height: 100vh; /* 3x a altura da tela */
+}
+
+.filha1, .filha2, .filha3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.filha1 {
+    background-color: #008080;
+}
+
+.filha2 {
+    background-color: greenyellow;
+}
+
+.filha3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: tomato;
+}
+
+.filha4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background-color: #fafafa;
+}
+
+.texto {
+    overflow-y: auto;
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.texto ul li:not(li.sticky) {
+    height: 200px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    color: #fafafa;
+    background-color: rgb(6, 78, 78);
+}
