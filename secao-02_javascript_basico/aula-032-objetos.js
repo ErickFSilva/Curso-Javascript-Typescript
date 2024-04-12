@@ -9,7 +9,7 @@ console.log(objetoPessoa.nome);
 console.log();
 
 
-// Criando um função para criar objetos, 'facture function' (fábrica de objetos)
+// Criando uma função para criar objetos, 'facture function' (fábrica de objetos)
 function criaPessoa (nome, sobrenome, idade) {
 
     return {
