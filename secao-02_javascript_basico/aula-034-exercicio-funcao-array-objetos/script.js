@@ -16,17 +16,15 @@ function meuEscopo() {
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
 
-        let pessoa = {
+        pessoas.push({
             nome: nome.value,
             sobrenome: sobrenome.value,
             peso: peso.value,
             altura: altura.value
-        };
+        });
 
-        pessoas.push(pessoa);
-
-        console.table(pessoas);
-        resultado.innerHTML = `${pessoas[0]}<br>${pessoas[1]}<br>${pessoas[2]}<br>${pessoas[3]}<br><br>`;
+        console.log(pessoas);
+        resultado.innerHTML += `<p>Nome: ${nome.value} ${sobrenome.value}; Peso: ${peso.value}; Altura: ${altura.value}</p>`;
     }
 
     form.addEventListener('submit', recebeEventoForm);

@@ -16,14 +16,20 @@ main {
     background-color: rgb(215, 233, 250);
 }
 
-main div:not(div:last-child) {
+main form div:not(div:last-child) {
     margin-bottom: 8px;
 }
 
-main label {
+main form label {
     display: block;
 }
 
-main button {
+main form button {
     padding: 6px 8px;
+}
+
+main div.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fafafa;
 }
