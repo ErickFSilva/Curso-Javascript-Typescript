@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "code-runner.executorMap": {
+        "javascript": "clear ; node",
+        "php": "clear ; php",
+        "python": "clear ; python -u",
+        "typescript": "clear ; ts-node",
+        "sass": "clear ; sass --style expanded",
+        "scss": "clear ; scss --style expanded",
+        "less": "clear ; cd $dir && lessc $fileName $fileNameWithoutExt.css"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true
+}
