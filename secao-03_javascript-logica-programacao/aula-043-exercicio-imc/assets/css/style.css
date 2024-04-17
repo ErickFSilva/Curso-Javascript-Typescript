@@ -28,13 +28,20 @@ main {
 
 
 /* HEADER */
-header {
+header:not(article header) {
     padding: 10px 0 30px;
+}
+
+
+/* ARTICLE */
+article header {
+    margin-bottom: 20px;
 }
 
 
 /* Tabela IMC */
 #tabela-imc {
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -42,4 +49,50 @@ header {
 
 #tabela-imc article {
     width: 50%;
+}
+
+
+/* Calculadora IMC */
+#calculadora-imc label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500;
+}
+
+#calculadora-imc input[type="text"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(189, 189, 189);
+    font-size: 1.4em;
+    background-color: #fafafa;
+}
+
+#calculadora-imc input[type="submit"] {
+    padding: 15px 0;
+    width: 100%;
+    border: none;
+    font-size: 1.2em;
+    color: #fafafa;
+    background-color: teal;
+}
+
+
+/* Resultado IMC */
+#resultado-imc {
+    margin-top: 20px;
+}
+
+#resultado-imc #resultado {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    font-size: 1.2em;
+    color: #dbdbdb;
+    /* color: #2f4f4f; */
+    background-color: #fafafa;
+}
+
+#resultado-imc #resultado .resul-color {
+    color: #2f4f4f;
 }
