@@ -79,20 +79,14 @@ article header {
 
 
 /* Resultado IMC */
-#resultado-imc {
+#resultado-imc .resultado {
     margin-top: 20px;
-}
-
-#resultado-imc #resultado {
-    padding: 8px;
+    /* padding: 8px 0; */
     width: 100%;
     border: none;
+    text-align: center;
     font-size: 1.2em;
-    color: #dbdbdb;
-    /* color: #2f4f4f; */
+    /* color: #dbdbdb; */
+    color: teal;
     background-color: #fafafa;
-}
-
-#resultado-imc #resultado .resul-color {
-    color: #2f4f4f;
 }
