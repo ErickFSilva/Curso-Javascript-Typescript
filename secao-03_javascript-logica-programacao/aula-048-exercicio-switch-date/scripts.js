@@ -2,9 +2,8 @@
 const h1 = document.querySelector('.container h1');
 const data = new Date();
 
-h1.innerHTML = `${criaData(data)}`;
 
-// Função que retorna o dia da semana
+// Funções
 function getNomeDiaSemana() {
     const dia = data.getDay();
 
@@ -36,7 +35,6 @@ function getNomeDiaSemana() {
 
 }
 
-// Função que retorna o nome do mês
 function getNomeMes() {
     const mes = data.getMonth() + 1;
 
@@ -83,7 +81,10 @@ function getNomeMes() {
 
 }
 
-// Função para criar uma data
+function zeroEsquerda(numero) {
+    return numero >= 10 ? numero : `0${numero}`;
+}
+
 function criaData(data) {
     const nomeDiaSemana = getNomeDiaSemana();
     const diaMes = data.getDate();
@@ -92,5 +93,9 @@ function criaData(data) {
     const horas = data.getHours();
     const minutos = data.getMinutes();
 
-    return `${nomeDiaSemana}, ${diaMes} de ${nomeMes} de ${ano} às ${horas}:${minutos}`;
+    return `<span>${zeroEsquerda(horas)}:${zeroEsquerda(minutos)}</span> <br> ${nomeDiaSemana}, ${diaMes} de ${nomeMes} de ${ano}`;
 }
+
+
+// Execução
+h1.innerHTML = `${criaData(data)}`;
