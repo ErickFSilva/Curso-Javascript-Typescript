@@ -1,0 +1,26 @@
+/* Fontes: 
+        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
+*/
+
+/* ESTRUTURA */
+.main-bg {
+    color: var(--white-color);
+    background-image: url(../img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.white-bg {
+    background-color: var(--white-color);
+}
+
+.main-content {
+    margin: 0 auto;
+    padding: var(--gap);
+    max-width: 120rem;
+}
+
+.section {
+    min-height: 100vh;
+}

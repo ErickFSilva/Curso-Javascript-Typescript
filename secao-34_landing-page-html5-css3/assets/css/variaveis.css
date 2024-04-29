@@ -1,0 +1,13 @@
+/* Fontes: 
+        font-family: "Montserrat", sans-serif;
+        font-family: "Open Sans", sans-serif;
+*/
+
+/* VARIÁVEIS GLOBAIS */
+:root {
+    --primary-color: #0a1128;
+    --secondary-color: crimson;
+    --white-color: #fff;
+    --light-gray-color: #eee;
+    --gap: 3rem;
+}
