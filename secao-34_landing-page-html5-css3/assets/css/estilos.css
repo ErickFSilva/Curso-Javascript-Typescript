@@ -3,3 +3,27 @@
         font-family: "Open Sans", sans-serif;
 */
 
+.intro-content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    /* border: 1px solid tomato; */
+}
+
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.intro-text-content h2 {
+    margin-bottom: 5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.intro-img img {
+    max-width: 100%;
+}
