@@ -11,7 +11,7 @@
     </style>
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="stylesheet" href="assets/css/elementos.css">
-    <link rel="stylesheet" href="assets/css/estrutura.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
@@ -26,8 +26,8 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">intro</a></li>
-                    <li><a href="#">top 3</a></li>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
                     <li><a href="#">gallery</a></li>
                     <li><a href="#">work</a></li>
                     <li><a href="#">contact</a></li>
@@ -38,13 +38,14 @@
 
     <div class="menu-spacing"></div>
 
-    <section class="intro main-bg section">
+    <!-- INTRO -->
+    <section id="intro" class="intro main-bg section">
         <div class="main-content intro-content">
 
             <div class="intro-text-content">
-                <h2>January brings us firefox 85</h2>
+                <h2>Janeiro nos traz o Firefox 85</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus rerum hic quia aperiam delectus libero iste, enim molestiae assumenda officiis commodi, aliquam et vel dignissimos ab ducimus perspiciatis ea iusto.
+                    Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. Nesta versão trazemos para vocês suporte para a pseudoclasse :focus-visible em CSS e devtools associados, e a remoção completa do Flash suporte do Firefox.
                 </p>
             </div>
 
@@ -55,8 +56,21 @@
         </div>
     </section>
 
-    <section class="white-bg section">
-        <h2>.</h2>
+    <!-- TOP 3 -->
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>3 principais empregos</h2>
+
+            <p>
+                O lançamento dos Macs baseados em silício da Apple no final do ano passado gerou uma enxurrada de cobertura de notícias e algumas surpresas no desempenho da máquina. Esta postagem detalha algumas informações básicas sobre o experiência de portar o Firefox para rodar nativamente nessas CPUs.
+            </p>
+            <p>
+                Começaremos com algumas informações básicas sobre a transição para Mac e daremos uma visão geral dos componentes internos do Firefox que precisava saber sobre a nova arquitetura, antes de passar para o conceito de Binários Universais.
+            </p>
+            <p>
+                Em seguida, explicaremos como funciona o DRM/EME na nova plataforma, falaremos sobre nossa experiência com o macOS Big Sur, e discutir vários problemas de atualização com os quais tivemos que lidar. Concluiremos com o lançamento e um visão geral de várias outras melhorias que estão em andamento.
+            </p>
+        </div>
     </section>
 
 </body>

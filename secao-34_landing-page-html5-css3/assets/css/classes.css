@@ -12,6 +12,7 @@
 }
 
 .white-bg {
+    color: var(--primary-color);
     background-color: var(--white-color);
 }
 

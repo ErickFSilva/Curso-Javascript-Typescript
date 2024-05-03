@@ -3,6 +3,7 @@
         font-family: "Open Sans", sans-serif;
 */
 
+/* INTRO */
 .intro-content {
     height: 100vh;
     display: grid;
@@ -17,13 +18,18 @@
     justify-content: center;
 }
 
-.intro-text-content h2 {
-    margin-bottom: 5rem;
-    line-height: 1.2;
-    text-transform: uppercase;
-    font-size: 5rem;
-}
-
 .intro-img img {
     max-width: 100%;
+}
+
+
+/* TOP 3 */
+.top3-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: 64rem;
+    height: 100vh;
+    /* border: 1px solid tomato; */
+    text-align: center;
 }
