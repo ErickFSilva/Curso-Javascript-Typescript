@@ -33,3 +33,46 @@
     /* border: 1px solid tomato; */
     text-align: center;
 }
+
+
+/* JOBS */
+.jobs .jobs-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    /* border: 1px dashed tomato; */
+}
+
+.jobs-main-heading {
+    margin-bottom: 1rem;
+}
+
+.jobs-description {
+    margin-bottom: 8rem;
+}
+
+.jobs .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
+
+.jobs .grid h3 {
+    position: relative;
+    padding-left: 6rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.jobs .grid h3::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    top: -4rem;
+    left: 0;
+    transform: rotate(5deg);
+    font-style: italic;
+    font-size: 8rem;
+}
