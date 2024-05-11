@@ -1,0 +1,32 @@
+body {
+    /* padding: 20px; */
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+}
+
+#container {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 1px solid slategray;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+}
+
+.acao {
+    margin-top: 20px;
+}

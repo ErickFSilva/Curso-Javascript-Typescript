@@ -21,6 +21,8 @@ body {
     line-height: 1.5;
 }
 
+
+/* CABEÇALHOS */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
@@ -46,6 +48,40 @@ h5 { font-size: 4rem; }
 
 h6 { font-size: 3.5rem; }
 
+
+/* LINKS */
 a { text-decoration: none; }
 
+
+/* PARÁGRAFOS */
 p { margin-bottom: 3rem; }
+
+
+/* TABELAS */
+.responsive-table {
+    overflow-x: scroll;
+}
+
+table {
+    width: 100%;
+    min-width: 500px;
+    border-collapse: collapse;
+}
+
+table caption {
+    margin: 10px;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+table td, table th {
+    padding: 1rem;
+    border: 0.1rem solid var(--light-gray-color);
+    text-align: left;
+    white-space: nowrap;
+}
+
+table thead th, tfoot td {
+    background-color: var(--light-gray-color);
+}

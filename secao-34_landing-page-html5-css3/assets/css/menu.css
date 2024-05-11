@@ -28,6 +28,11 @@
     color: var(--primary-color);
 }
 
+.menu h1 .logo-menu {
+    display: block;
+    width: 5.5rem;
+}
+
 .menu nav {
     width: 100%;
     /* border: 1px dashed var(--primary-color); */
